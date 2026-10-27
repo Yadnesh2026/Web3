@@ -8,9 +8,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const metadataBase = host ? new URL(`${protocol}://${host}`) : undefined;
   return {
     metadataBase,
-    title: "Sakshi & Tejas | Wedding & Reception Invitation",
-    description: "Join Sakshi and Tejas for their wedding on 18 December and reception on 20 December 2026.",
-    openGraph: { title: "Sakshi & Tejas | Wedding & Reception Invitation", description: "A celebration of love, family and new beginnings · 18 December 2026", type: "website", images: [{ url: "/og-invitation.svg", width: 1200, height: 630, alt: "Sakshi and Tejas wedding invitation" }] },
+    title: "Tejas & Sakshi | Wedding & Reception Invitation",
+    description: "Join Tejas and Sakshi for their wedding on 18 December and reception on 20 December 2026.",
+    openGraph: { title: "Tejas & Sakshi | Wedding & Reception Invitation", description: "A celebration of love, family and new beginnings · 18 December 2026", type: "website", images: [{ url: "/og-invitation.svg", width: 1200, height: 630, alt: "Tejas and Sakshi wedding invitation" }] },
     icons: { icon: "/favicon.svg" }
   };
 }
